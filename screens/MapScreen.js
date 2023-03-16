@@ -8,7 +8,6 @@ export default function MapScreen() {
   const Stack = createNativeStackNavigator();
   return (
     <View>
-      <Text>He is map stuff</Text>
       <View style={tw`h-1/2`}>
         <Map />
       </View>
